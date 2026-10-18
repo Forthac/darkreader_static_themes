@@ -1,1 +1,1 @@
-# darkreader_static_themes
+# Static themes for dark reader
