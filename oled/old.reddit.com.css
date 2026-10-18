@@ -1,0 +1,52 @@
+/* Force pure black except inside media players */
+*:not(:is(
+    a,
+    .reddit-video-player-root *,
+    #header-img,
+    .ytp-overlays-container,
+    .edit-btn,
+    .res-video-position,
+    .res-video-position-thumb,
+    .res-video-volume-level,
+    .res-video-volume-percentage,
+    #player-controls,
+    #player-controls *
+)) {
+    background-color: black !important;
+}
+
+a {
+    color: white !important;
+    background-color: transparent !important;
+}
+
+a:visited {
+    color: grey !important;
+    background-color: transparent !important;
+}
+
+#header-img {
+}
+
+#header-img.default-header {
+    text-indent: 0;
+    background-image: none;
+    font-size: 26px;
+    display: inline;
+}
+
+.res-video-position {
+    background-color: white !important;
+}
+
+.res-video-position-thumb {
+    background-color: white !important;
+}
+
+.res-video-volume-level {
+    background-color: white !important;
+}
+
+.res-video-volume-percentage {
+    background-color: black !important;
+}
